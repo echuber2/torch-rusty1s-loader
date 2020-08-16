@@ -1,21 +1,19 @@
 
 # make sure torch is installed
 import os
-os.system('python3 -m pip install findblas')
+os.system('python3 -m pip install torch')
 
 from setuptools import setup
 setup(
     name='torch-rusty1s-loader',
     version='0.1',
-    install_requires=['cookiecutter'],
-    extras_require={
-        "findblas": ["findblas"],
-        "torch-bincount": ["torch-bincount"],
-        "torch-cluster": ["torch-cluster"],
-        "torch-geometric": ["torch-geometric"],
-        "torch-scatter": ["torch-scatter"],
-        "torch-sparse": ["torch-sparse"],
-        "torch-spline-conv": ["torch-spline"],
-        "torch-unique": ["torch-unique"]
-    }
+    install_requires=[
+        "torch-bincount",
+        "torch-cluster",
+        "torch-geometric",
+        "torch-scatter",
+        "torch-sparse",
+        "torch-spline-conv",
+        "torch-unique"
+    ]
 )
