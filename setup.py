@@ -1,13 +1,13 @@
 
 # make sure torch is installed
 import os
-os.system('python3 -m pip install wheel')
+os.system('python3 -m pip install findblas')
 
 from setuptools import setup
 setup(
     name='torch-rusty1s-loader',
     version='0.1',
-    install_requires=['findblas'],
+    install_requires=['cookiecutter'],
     extras_require={
         "findblas": ["findblas"],
         "torch-bincount": ["torch-bincount"],
