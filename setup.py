@@ -7,6 +7,7 @@ from setuptools import setup
 setup(
     name='torch-rusty1s-loader',
     version='0.1',
+    install_requires=['findblas'],
     extras_require={
         "findblas": ["findblas"],
         "torch-bincount": ["torch-bincount"],
