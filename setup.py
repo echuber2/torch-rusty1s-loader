@@ -1,7 +1,7 @@
 
 # make sure torch is installed
 import os
-os.system('python3 -m pip install torch')
+os.system('python3 -m pip install wheel')
 
 from setuptools import setup
 setup(
