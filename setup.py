@@ -13,7 +13,6 @@ setup(
         "torch-geometric",
         "torch-scatter",
         "torch-sparse",
-        "torch-spline-conv",
-        "torch-unique"
+        "torch-spline-conv"
     ]
 )
